@@ -4,6 +4,8 @@
  which the length is 3. For "bbbbb" the longest substring is "b", with the length of 1.
  
  NOTE: This implementation is simpler and better than my java implementation
+       Improvement: unordered_map can be replaced by a simple int array.
+                    haven't figured out how to update a value of a particular key.
 **/
 
 #include<unordered_map>
